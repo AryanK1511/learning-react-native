@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+
+# Expo specific
+.expo/
+.expo-shared/
+
+# Build outputs
+dist/
+build/
+android/app/build/
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo-error.log
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.lock
+
+# Metro bundler cache
+.metro-cache/
+
+# Watchman
+.watchmanconfig
+
+# Fastlane (if used for deployment)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Android/Gradle
+.gradle/
+local.properties
+
+# iOS specific
+DerivedData/
